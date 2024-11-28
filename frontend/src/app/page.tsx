@@ -25,7 +25,7 @@ export default function Page() {
       })
 
       if(!response.data.token){
-        return
+        return;
       }
 
       console.log(response.data);
@@ -87,5 +87,3 @@ export default function Page() {
     </>
   )
 }
-
-//slide 190 fe01
